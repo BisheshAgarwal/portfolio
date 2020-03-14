@@ -1,0 +1,150 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Merriweather', serif;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Sacramento', cursive;
+  font-size: 5.62rem;
+  margin: 50px auto 0 auto;
+  color: #66BFBF;
+}
+
+h2, h3{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  color: #66BFBF;
+  font-size: 2.3rem;
+}
+
+h3, a{
+  color: #11999E;
+}
+
+h3{
+  margin: 20px 0;
+}
+
+.intro{
+  font-size: 1.2rem;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.top-container {
+  padding-top: 100px;
+  position: relative;
+  background-color: #E4F9F5;
+}
+
+.profile h2{
+  margin-top: 20px;
+}
+
+.bottom-container{
+  margin-top: 80px;
+}
+
+.bottom-cloud{
+  position: absolute;
+  bottom: 300px;
+  left: 300px;
+}
+
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.skill-img-1{
+  width: 25%;
+  border-radius: 100px;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-img-2{
+  width: 25%;
+  border-radius: 50px;
+  float: right;
+  margin-left: 30px;
+}
+
+.profile-photo{
+  margin-top: 80px;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.hello-para{
+  margin: 30px 0 0 0;
+  color: #40514E;
+  line-height: 2;
+}
+
+hr{
+  color: #a9a9a9;
+  width: 3%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #a9a9a9;
+  border-width: 5px;
+  margin: 0 auto;
+  margin: 90px auto;
+}
+
+.contact-me h3{
+  margin: 40px 0;
+  font-size: 1rem;
+}
+
+.contact-me p{
+  color: #40514E;
+  width: 40%;
+  margin: 0 auto 50px auto;
+  line-height: 2;
+}
+
+.contact-me a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #3498db;
+  border: 1px solid #3498db;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-transform: uppercase;
+}
+
+.bottom-container{
+  background-color: #66BFBF;
+  padding: 70px 0 50px 0;
+}
+
+.bottom-container a{
+  margin-left: 30px;
+  text-decoration: none;
+  color: #11999E;
+}
+
+.bottom-container a:first-child{
+  margin-left: 0;
+}
+
+.bottom-container p{
+  margin-top: 35px;
+  color: #EAF6F6;
+  font-size: 0.8rem;
+}
