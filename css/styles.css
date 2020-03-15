@@ -1,3 +1,6 @@
+
+/****** BASIC SETUP ******/
+
 *{
   margin: 0;
   padding: 0;
@@ -9,28 +12,48 @@ body{
   letter-spacing: 1px;
 }
 
+/****** REUSABLE COMPONENTS ******/
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  font-size: 2.3rem;
+}
+
+a{
+  color: #11999E;
+}
+
+h3{
+  font-family: 'Montserrat', sans-serif;
+  margin: 20px 0;
+  color: #11999E;
+}
+
+hr{
+  color: #a9a9a9;
+  width: 3%;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #a9a9a9;
+  border-width: 5px;
+  margin: 0 auto;
+  margin: 90px auto;
+}
+
+/****** TOP CONTAINER ******/
+
+.top-container {
+  padding-top: 100px;
+  position: relative;
+  background-color: #E4F9F5;
+}
+
 h1{
   font-family: 'Sacramento', cursive;
   font-size: 5.62rem;
   margin: 50px auto 0 auto;
   color: #66BFBF;
-}
-
-h2, h3{
-  font-family: 'Montserrat', sans-serif;
-}
-
-h2{
-  color: #66BFBF;
-  font-size: 2.3rem;
-}
-
-h3, a{
-  color: #11999E;
-}
-
-h3{
-  margin: 20px 0;
 }
 
 .intro{
@@ -39,18 +62,10 @@ h3{
   margin-top: 20px;
 }
 
-.top-container {
-  padding-top: 100px;
-  position: relative;
-  background-color: #E4F9F5;
-}
-
-.profile h2{
-  margin-top: 20px;
-}
-
-.bottom-container{
-  margin-top: 80px;
+.top-cloud{
+  position: absolute;
+  top: 50px;
+  right: 300px;
 }
 
 .bottom-cloud{
@@ -59,10 +74,27 @@ h3{
   left: 300px;
 }
 
-.top-cloud{
-  position: absolute;
-  top: 50px;
-  right: 300px;
+/****** MIDDLE CONTAINER ******/
+
+.middle-container{
+  padding: 80px 0;
+}
+
+.profile h2{
+  margin-top: 20px;
+}
+
+.hello-para{
+  margin: 30px 0 0 0;
+  color: #40514E;
+  line-height: 2;
+}
+
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
 }
 
 .skill-img-1{
@@ -79,36 +111,8 @@ h3{
   margin-left: 30px;
 }
 
-.profile-photo{
-  margin-top: 80px;
-}
-
-.skill-row{
-  width: 50%;
-  margin: 100px auto;
-  text-align: left;
-  line-height: 2;
-}
-
 .skill-row p{
   color: #40514E;
-}
-
-.hello-para{
-  margin: 30px 0 0 0;
-  color: #40514E;
-  line-height: 2;
-}
-
-hr{
-  color: #a9a9a9;
-  width: 3%;
-  border-style: none;
-  border-top-style: dotted;
-  border-color: #a9a9a9;
-  border-width: 5px;
-  margin: 0 auto;
-  margin: 90px auto;
 }
 
 .contact-me h3{
@@ -142,9 +146,11 @@ hr{
   border: 1px solid #2487c9;
 }
 
+/****** BOTTOM CONTAINER ******/
+
 .bottom-container{
   background-color: #66BFBF;
-  padding: 70px 0 50px 0;
+  padding: 70px 0 30px 0;
 }
 
 .footer-link:link,
@@ -161,7 +167,7 @@ hr{
   color: #EAf6f6;
 }
 
-.bottom-container a:first-child{
+.footer-link:first-child{
   margin-left: 0;
 }
 
